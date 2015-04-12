@@ -1,0 +1,4 @@
+#!/bin/bash
+ gcc -shared -I/home/hadoop/jdk1.6.0_24/include -I/home/hadoop/jdk1.6.0_24/include/linux  -static -lc com_fc_caseRunner_Judge.c -o libJudge.so
+exit 0
+

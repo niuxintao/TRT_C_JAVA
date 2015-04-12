@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUG	tree.h	5;"	d
+Boolean	testObject.h	/^enum Boolean {false, true};$/;"	g
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall$/;"	m
+COMBINE	basic.h	/^struct COMBINE {$/;"	s
+CombineStack	basic.h	5;"	d
+DEPS	Makefile	/^DEPS = basic.h list.h testObject.h $/;"	m
+FAILED	testObject.h	5;"	d
+INIT_LIST_HEAD	list.h	/^	static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+Iterator	list.h	3;"	d
+LIST_HEAD	list.h	44;"	d
+LIST_HEAD_INIT	list.h	42;"	d
+LIST_POISON1	list.h	25;"	d
+LIST_POISON2	list.h	26;"	d
+MAXSTRING	testObject.c	5;"	d	file:
+MAXSTRING	testTestObject.c	4;"	d	file:
+MAXSTRLEN	testIdentify.c	5;"	d	file:
+OBJ	Makefile	/^OBJ = basic.o  testObject.o testTestObject.o$/;"	m
+OBJ2	Makefile	/^OBJ2 = testList.o$/;"	m
+OBJ3	Makefile	/^OBJ3 = basic.o testObject.o testPath.o tree.o path.o select.o generate.o$/;"	m
+OBJ4	Makefile	/^OBJ4 = basic.o testObject.o tree.o path.o select.o generate.o testIdentify.o$/;"	m
+PASSED	testObject.h	6;"	d
+RIGHT	tree.h	4;"	d
+TEST_NODE	testObject.h	/^struct TEST_NODE {$/;"	s
+TUPLE	testObject.h	/^struct TUPLE{$/;"	s
+TUPLE_NODE	testObject.h	/^struct TUPLE_NODE{$/;"	s
+TestCase	testObject.h	7;"	d
+TestCaseNode	testObject.h	11;"	d
+Testcase	testObject.h	/^struct Testcase {$/;"	s
+Tuple	testObject.h	8;"	d
+TupleNode	testObject.h	10;"	d
+UNKNOWN	tree.h	6;"	d
+UNTESTED	testObject.h	4;"	d
+__BASIC_H	basic.h	2;"	d
+__C_LIST_H	list.h	2;"	d
+__GENCASE_H	generate.h	2;"	d
+__PATH_H	path.h	2;"	d
+__TESTOBJECT_H	testObject.h	2;"	d
+__TREE_H	tree.h	2;"	d
+__list_add	list.h	/^					static inline void __list_add(struct list_head *new,$/;"	f
+__list_del	list.h	/^					static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_splice	list.h	/^					static inline void __list_splice(struct list_head *list,$/;"	f
+boolean	testObject.h	9;"	d
+bugs	generate.c	/^static Iterator bugs;$/;"	v	file:
+cat	testObject.c	/^void cat(Tuple* A , Tuple* B , Tuple* to){$/;"	f
+catComm	path.c	/^void catComm(Tuple* A, Tuple* B, Tuple* to){$/;"	f
+compress	testObject.c	/^void compress(Iterator* head){$/;"	f
+compress_r	testObject.c	/^void compress_r(Iterator* head){$/;"	f
+container_of	list.h	18;"	d
+copyTuple	testObject.c	/^void copyTuple(Tuple* from , Tuple* to){$/;"	f
+extraProcessAfterBug	tree.c	/^void extraProcessAfterBug(Iterator* bugsExsited){$/;"	f
+extraProcessAfterRight	tree.c	/^void extraProcessAfterRight(Iterator* rightsExsited){$/;"	f
+false	testObject.h	/^enum Boolean {false, true};$/;"	e	enum:Boolean
+freeStack	basic.c	/^void freeStack(CombineStack* stack){$/;"	f
+freeTestCase	testObject.c	/^void freeTestCase(TestCase* testCase){$/;"	f
+freeTuple	testObject.c	/^void freeTuple(Tuple* tuple){$/;"	f
+freeTupleList	testObject.c	/^void freeTupleList(Iterator* head){$/;"	f
+generateMaxPaths	path.c	/^void generateMaxPaths(Tuple* head, Tuple* tail, Iterator* paths){$/;"	f
+generateTestCaseContainOf	generate.c	/^void generateTestCaseContainOf(Tuple* tuple, TestCase* testCase,TestCase* failCase,int* parameter){$/;"	f
+generateTupleFromStack	testObject.c	/^void generateTupleFromStack(CombineStack* stack , Tuple* from, Tuple* to){$/;"	f
+getAllChildTuples	testObject.c	/^void getAllChildTuples(Tuple* father, Iterator* head){$/;"	f
+getAllFatherTuples	testObject.c	/^void getAllFatherTuples(Tuple* child, Iterator* head){$/;"	f
+getChildTuplesByDegree	testObject.c	/^void getChildTuplesByDegree(int degree,Tuple* father,  Iterator* head){$/;"	f
+getFatherTuplesByDegree	testObject.c	/^void getFatherTuplesByDegree(int degree , Tuple* child, Iterator* fatherHead){$/;"	f
+getItr	path.c	/^void getItr(Tuple* bug,Iterator*  lastItr, Iterator* thisItr){$/;"	f
+getLongestCandidateHeads	path.c	/^void getLongestCandidateHeads(Iterator* bugsExsited,Iterator* heads){$/;"	f
+getLongestCandidateTails	path.c	/^void getLongestCandidateTails(Iterator* rightExsited,Iterator* rights){$/;"	f
+getLongestPath	path.c	/^void getLongestPath(Iterator* minimalBugsExisted,Iterator* maximalRightsExisted,Iterator* paths){$/;"	f
+getReverseTuple	testObject.c	/^void getReverseTuple(Tuple* tuple, Tuple* reverse){$/;"	f
+head	select.c	/^static int head = 0;$/;"	v	file:
+identify	tree.c	/^void identify(int* parameter, TestCase* fail, Iterator* minimalBugsExisted, Iterator* maximalRightsExisted){$/;"	f
+initBugs	generate.c	/^void initBugs(){$/;"	f
+initCombine	basic.c	/^void initCombine(CombineStack* stack, int degree){$/;"	f
+initPath	select.c	/^void initPath(int testCaseSize){$/;"	f
+initRecord	tree.c	/^void initRecord(TestCase* fail , Tuple* root){$/;"	f
+initTuple	testObject.c	/^void initTuple(Tuple* tuple , int degree, TestCase* testCase){$/;"	f
+injectBugs	generate.c	/^void injectBugs(int* indexPtr, int degree, TestCase* testCase){$/;"	f
+int_node	testList.c	/^struct int_node {$/;"	s	file:
+isMaximal	testObject.c	/^boolean isMaximal(Tuple* tuple,Iterator* head){$/;"	f
+isMinimal	testObject.c	/^boolean isMinimal(Tuple* tuple,Iterator* head){$/;"	f
+isTestCaseContain	testObject.c	/^boolean isTestCaseContain(TestCase* t , Tuple* tuple){$/;"	f
+isTestCaseEqual	testObject.c	/^boolean isTestCaseEqual(TestCase* t_a , TestCase* t_b){$/;"	f
+isTupleContain	testObject.c	/^int isTupleContain(Tuple* A , Tuple* B){$/;"	f
+isTupleEqual	testObject.c	/^boolean isTupleEqual(Tuple* t_a , Tuple* t_b){$/;"	f
+iterator	testObject.h	/^	Iterator iterator;$/;"	m	struct:TEST_NODE
+iterator	testObject.h	/^	Iterator iterator;$/;"	m	struct:TUPLE_NODE
+itoa	basic.c	/^void itoa(int n, char s[])$/;"	f
+lenBetween	path.c	/^int lenBetween(Tuple* A, Tuple* B){$/;"	f
+list	testList.c	/^	struct list_head list;$/;"	m	struct:int_node	typeref:struct:int_node::list_head	file:
+list_add	list.h	/^					static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	list.h	/^					static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_del	list.h	/^					static inline void list_del(struct list_head *entry)$/;"	f
+list_empty	list.h	/^					static inline int list_empty(const struct list_head *head)$/;"	f
+list_entry	list.h	38;"	d
+list_for_each	list.h	58;"	d
+list_for_each_r	list.h	66;"	d
+list_head	list.h	/^struct list_head {$/;"	s
+list_splice	list.h	/^					static inline void list_splice(struct list_head *list, struct list_head *head)$/;"	f
+longest	select.c	/^static Tuple** longest;$/;"	v	file:
+main	testIdentify.c	/^int main(){$/;"	f
+main	testList.c	/^int main(){$/;"	f
+main	testPath.c	/^int main(){$/;"	f
+main	testTestObject.c	/^int main(){$/;"	f
+maxSize	basic.h	/^	int maxSize;$/;"	m	struct:COMBINE
+middle	select.c	/^static int middle = -1;$/;"	v	file:
+next	list.h	/^	    struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+offsetof	list.h	9;"	d
+paramIndexPtr	testObject.h	/^	int * paramIndexPtr;$/;"	m	struct:TUPLE
+paths	select.c	/^static Iterator paths;$/;"	v	file:
+pop	basic.c	/^int pop(CombineStack* stack){$/;"	f
+prev	list.h	/^	    struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+push	basic.c	/^void push(CombineStack* stack , int value){$/;"	f
+putTestCaseToString	testObject.c	/^void putTestCaseToString(TestCase* t , char* str){$/;"	f
+putTupleToString	testObject.c	/^void putTupleToString(Tuple* tuple, char* str){$/;"	f
+reverse	basic.c	/^void reverse(char s[])$/;"	f
+rightAfter	select.c	/^void rightAfter(Iterator* rightsExsiteds){$/;"	f
+runTest	generate.c	/^boolean runTest(TestCase* testCase){$/;"	f
+selectTuple	select.c	/^void selectTuple(Iterator* bugsExsited, Iterator* rightsExsited,Tuple* tuple){$/;"	f
+size_t_added	list.h	/^typedef unsigned long     size_t_added;$/;"	t
+stack	basic.h	/^	int* stack;$/;"	m	struct:COMBINE
+stackSize	basic.h	/^	int stackSize;$/;"	m	struct:COMBINE
+tail	select.c	/^static int tail = -1;$/;"	v	file:
+testCase	testObject.h	/^	TestCase * testCase;$/;"	m	struct:TUPLE
+testCase	testObject.h	/^	TestCase* testCase;$/;"	m	struct:TEST_NODE
+testCasePtr	testObject.h	/^	int * testCasePtr;$/;"	m	struct:Testcase
+testCaseSize	testObject.h	/^	int testCaseSize;$/;"	m	struct:Testcase
+testIdentify	testIdentify.c	/^void testIdentify(){$/;"	f
+testInfo	testObject.h	/^	int testInfo;$/;"	m	struct:Testcase
+testPath	testPath.c	/^void testPath(){$/;"	f
+testPath2	testPath.c	/^void testPath2(){$/;"	f
+testTestCase	testTestObject.c	/^void testTestCase(){$/;"	f
+testTuple	testTestObject.c	/^void testTuple(){$/;"	f
+true	testObject.h	/^enum Boolean {false, true};$/;"	e	enum:Boolean
+tuple	testObject.h	/^	Tuple* tuple;$/;"	m	struct:TUPLE_NODE
+tupleSize	testObject.h	/^	int tupleSize;$/;"	m	struct:TUPLE
+u16	list.h	/^typedef unsigned short    u16;$/;"	t
+u32	list.h	/^typedef unsigned int      u32;$/;"	t
+u8	list.h	/^typedef unsigned char     u8;$/;"	t
+val	testList.c	/^	int val;$/;"	m	struct:int_node	file:
+wrongAfter	select.c	/^void wrongAfter(Iterator* bugsExsited){$/;"	f
